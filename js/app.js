@@ -1,11 +1,12 @@
 const url = "http://api.openweathermap.org/data/2.5/"
-const key = "KEY"
+const key = "API_KEY"
 
 const setQuery = (e) => {
     if (e.keyCode == '13') {
         getResult(searchBar.value)
     }
 }
+
 
 //Fetch
 const getResult = (cityName) => {
